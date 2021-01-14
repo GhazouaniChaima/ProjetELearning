@@ -1,0 +1,99 @@
+/* Trim */
+.hvr-trim {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+.hvr-trim:before {
+  content: '';
+  position: absolute;
+  border: white solid 2px;
+  border-radius: 3px;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {
+  opacity: 1;
+}<!-- 
+			=============================================
+				Our Pricing Plan
+			============================================== 
+			-->
+			<div class="our-pricing-plan">
+				<div class="container">
+					<div class="theme-title text-center">
+						<h2>Pick Your Plan. <span>No Hidden Charge!!</span></h2>
+						<p>Other technological advances made during the Paleolithic era were clothing and shelter  both technologies cannot <br>be dated exactly, but they were a key to humanity's progress. </p>
+					</div> <!-- /.theme-title -->
+
+					<div class="clearfix">
+						<div class="single-plan-table tran3s">
+							<h6>Startup</h6>
+							<strong><sub>$</sub> 17 <sup>99 <span>/ Mo.</span></sup></strong>
+							<ul>
+								<li>100 Free Classes</li>
+								<li><del>960 Premium Classes</del></li>
+								<li>Expert Community (iOS, Android)</li>
+								<li><del>Cross Platforms Apps</del></li>
+								<li><del>Offline Access</del></li>
+								<li>Support Teachers</li>
+							</ul>
+							<a href="#" class="tran3s hvr-trim">Buy now </a>
+						</div> <!-- /.single-plan-table -->
+						<div class="single-plan-table tran3s">
+							<h6>Growth</h6>
+							<strong><sub>$</sub> 29 <sup>99 <span>/ Mo.</span></sup></strong>
+							<ul>
+								<li>100 Free Classes</li>
+								<li><del>960 Premium Classes</del></li>
+								<li>Expert Community (iOS, Android)</li>
+								<li><del>Cross Platforms Apps</del></li>
+								<li>Offline Access</li>
+								<li>Support Teachers</li>
+							</ul>
+							<a href="#" class="tran3s hvr-trim">Buy now </a>
+						</div> <!-- /.single-plan-table -->
+						<div class="single-plan-table tran3s">
+							<h6>Premium</h6>
+							<strong><sub>$</sub> 69 <sup>99 <span>/ Mo.</span></sup></strong>
+							<ul>
+								<li>100 Free Classes</li>
+								<li>960 Premium Classes</li>
+								<li>Expert Community (iOS, Android)</li>
+								<li><del>Cross Platforms Apps</del></li>
+								<li>Offline Access</li>
+								<li>Support Teachers</li>
+							</ul>
+							<a href="#" class="tran3s hvr-trim">Buy now </a>
+						</div> <!-- /.single-plan-table -->
+						<div class="single-plan-table tran3s fix">
+							<h6>Enterprise</h6>
+							<strong><sub>$</sub> 369 <sup>99 <span>/ Mo.</span></sup></strong>
+							<ul>
+								<li>100 Free Classes</li>
+								<li>960 Premium Classes</li>
+								<li>Expert Community (iOS, Android)</li>
+								<li>Cross Platforms Apps</li>
+								<li>Offline Access</li>
+								<li>Support Teachers</li>
+							</ul>
+							<a href="#" class="tran3s hvr-trim">Buy now </a>
+						</div> <!-- /.single-plan-table -->
+					</div>
+				</div> <!-- /.container -->
+			</div> <!-- /.our-pricing-plan -->
+			
+
